@@ -27,7 +27,7 @@ Notice that all the functionalities are tested in the Main.java file. If you hav
 
 ### Break down into subtests
 
-*  The first job is to load the prices. We intialize a DataHandler object called datapreprocess, then the following code is used to extract the S&P 500 prices. The first argument is the path of the file. The second argument is the method for sorting the file. The third specifies which order the sorted file should be. The fourth is the attribute on which the sorting is performed. The fifth is the delimiter of the file.
+*  The first job is to load the prices. We intialize a DataHandler object called "datapreprocess", then the following code is used to extract the S&P 500 prices. The first argument is the path of the file. The second argument is the method for sorting the file. The third specifies which order the sorted file should be. The fourth is the attribute on which the sorting is performed. The fifth is the delimiter of the file.
 
 ```
 datapreprocess.loadPriceData("prices.csv", "bubblesort", "ascending", "date", ",");
