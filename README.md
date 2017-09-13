@@ -25,13 +25,21 @@ To run the Main.java file, you should place all the java files either under the 
 
 Notice that all the functionalities are tested in the Main.java file. If you have ecclipse, then you can click "run" to execute the "Main.java" program and it should out a txt file which records the prices history, average prices, moving average etc. 
 
-### Break down into end to end tests
+### Break down into subtests
 
-Explain what these tests test and why
+*  The first job is to load the prices. We intialize a DataHandler object called datapreprocess, then the following code is used to extract the S&P 500 prices. The first argument is the path of the file. The second argument is the method for sorting the file. The third specifies which order the sorted file should be. The fourth is the attribute on which the sorting is performed. The fifth is the delimiter of the file.
 
 ```
-Give an example
+datapreprocess.loadPriceData("prices.csv", "bubblesort", "ascending", "date", ",");
 ```
+
+*   
+
+```
+datapreprocess.correctPrices("corrections.csv", ",");
+```
+
+
 
 ### And coding style tests
 
@@ -45,7 +53,7 @@ Give an example
 
 ## Authors
 
-* **Xiao Guan** - *Initial work* - [PurpleBooth](https://github.com/guan4015/Summer-Assignment_Courant_Java/)
+* **Xiao Guan** - *Initial work* - [XiaoGuan_Summer Assignment](https://github.com/guan4015/Summer-Assignment_Courant_Java/)
 
 
 ## Acknowledgments
