@@ -1,10 +1,12 @@
-# Project Title
+# Summer Assignment -- Java
 
-One Paragraph of project description goes here
+This project first reads the S&P 500 file in .csv format and then sorting them according to specified attributes. It then can be used to retrieve the adjusted close prices in certain periods, compute the average and moving average of adjusted close prices and obtain the maximum of adjusted close prices in certain period.  
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project consists of three .java files.
+* 
 
 ### Prerequisites
 
@@ -72,16 +74,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Xiao Guan** - *Initial work* - [PurpleBooth](https://github.com/guan4015/Summer-Assignment_Courant_Java/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* 
+
