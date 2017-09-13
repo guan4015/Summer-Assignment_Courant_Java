@@ -5,8 +5,11 @@ This project first reads the S&P 500 file in .csv format and then sorting them a
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-This project consists of three .java files.
-* 
+This project consists of five .java files.
+
+*  The DataEntity.java defines the object for the input of each line in .csv file.
+*  The DataHandler.jave creates the linkedlist made up of DataEntity and contains methods: loadPriceData, getPrices, computeAverage, computeMax, computeMovingAverage, insertPrice, correctPrice, writeFile.
+*  
 
 ### Prerequisites
 
