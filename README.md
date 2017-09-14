@@ -33,23 +33,31 @@ Notice that all the functionalities are tested in the Main.java file. If you hav
 datapreprocess.loadPriceData("prices.csv", "bubblesort", "ascending", "date", ",");
 ```
 
-*   
+*   The following member function corrects the flaw prices. The corrections are firstly recorded in .csv file and then implemented into the object datapreprocess to modify the prices. 
 
 ```
 datapreprocess.correctPrices("corrections.csv", ",");
 ```
 
-
-
-### And coding style tests
-
-Explain what these tests test and why
+*   The following method get the historical prices between the time s1 and s2.
 
 ```
-Give an example
+datapreprocess.getPrices(s1, s2)
 ```
+*   The following method computes the average adjusted close prices between sa1 and sa2.
 
+```
+datapreprocess.computeAverage(sa1, sa2)
+```
+*   The following method computes the maximum of adjusted close prices between sm1 and sm2
 
+```
+datapreprocess.computeMax(sm1,sm2)
+```
+*   The following method computes the moving average of adjusted close prices between smv1 and smv2
+```
+datapreprocess.computeMovingAverage(windowsize, smv1,smv2)
+```
 
 ## Authors
 
