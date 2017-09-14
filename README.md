@@ -59,6 +59,8 @@ datapreprocess.computeMax(sm1,sm2)
 datapreprocess.computeMovingAverage(windowsize, smv1,smv2)
 ```
 
+The output results are wrapped into result.txt document. 
+
 ## Authors
 
 * **Xiao Guan** - *Initial work* - [XiaoGuan_Summer Assignment](https://github.com/guan4015/Summer-Assignment_Courant_Java/)
